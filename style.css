@@ -25,7 +25,7 @@ body {
 
 .main {
   padding: 20px 40px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 h2 {
@@ -39,4 +39,27 @@ a {
 
 li {
   margin-bottom: 6px;
+}
+
+.photo-table {
+  border-collapse: collapse;
+  margin: 15px 0 25px 0;
+}
+
+.photo-table td {
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.photo-table img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border: 2px solid #2563eb;
+}
+
+.photo-table p {
+  margin: 6px 0 0 0;
+  font-size: 13px;
 }
